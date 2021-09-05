@@ -1,0 +1,6 @@
+require('mh.plugins')
+require('mh.colors')
+require('mh.mappings')
+require('mh.treesitter')
+require('mh.lsp_config')
+require('mh.telescope')

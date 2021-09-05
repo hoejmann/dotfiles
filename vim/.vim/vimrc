@@ -1,0 +1,40 @@
+filetype plugin indent on
+syntax enable
+runtime! macros/matchit.vim
+
+call plug#begin()
+
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-surround'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+Plug 'vim-ruby/vim-ruby'
+
+call plug#end()
+
+set autoindent
+set autoread
+set backspace=indent,eol,start
+set expandtab
+set hidden
+set hlsearch
+set ignorecase
+set incsearch
+set nojoinspaces
+set number
+set relativenumber
+set scrolloff=5
+set shiftwidth=2
+set smartcase
+set smartindent
+set smarttab
+set splitbelow
+set splitright
+set tabstop=2
+set textwidth=79
+set undodir=~/.vim/tmp/undo
+set undofile
+set wildmenu
+
+let g:UltiSnipsListSnippets='<c-l>'
